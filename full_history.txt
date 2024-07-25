@@ -1,0 +1,680 @@
+    1  sudo apt update
+    2  sudo apt install mc
+    3  sudo apt install openssh-server 
+    4  exit
+    5  ip a
+    6  sistemctl status ssh
+    7  systemctl status ssh
+    8  sudo apt update
+    9  sudo apt gcc make perl
+   10  sudo apt install gcc make perl
+   11  sudo reboot
+   12  sudo usermod -aG vboxsf nikolay
+   13  mc
+   14  ip a
+   15  systemctl status ssh
+   16  mc
+   17  exit
+   18  /run
+   19  ls
+   20  cd /dev
+   21  ls
+   22  ls -al
+   23  exit
+   24  /dev
+   25  cd dev
+   26  cd /dev
+   27  ls al
+   28  ls -al
+   29  cd run
+   30  cd /run
+   31  ls -al
+   32  pwd
+   33  cd
+   34  mkdir test
+   35  ls -al
+   36  vim
+   37  sudo apt install vim
+   38  vim tutor
+   39  vimtutor
+   40  cd
+   41  pwd
+   42  ls
+   43  ls -l
+   44  cd /
+   45  ls -l
+   46  exit
+   47  cd /
+   48  pwd
+   49  ls -l
+   50  ls ./home/
+   51  sudo mkdir lab1
+   52  ls -l
+   53  rm -r lab1
+   54  sudo rm -r lab1
+   55  ls -l
+   56  pwd
+   57  ls ./home/
+   58  cd /home/
+   59  ls -l
+   60  mkdir lab1
+   61  cd ..
+   62  cd /var/
+   63  ls -l
+   64  ls /tmp/
+   65  cd ..
+   66  mkdir lab1 -p lab2
+   67  sudo mkdir lab1
+   68  ls -l
+   69  cd lab1
+   70  ls -l
+   71  mkdir lab2
+   72  sudo mkdir lab2
+   73  ls -l
+   74  cd /lab1/lab2/
+   75  pwd
+   76  rm lab2 lab3
+   77  mv lab2 lab3
+   78  cd .. 
+   79  pwd
+   80  ls -l
+   81  mv lab2 lab3
+   82  sudo mv lab2 lab3
+   83  ls -l
+   84  rm lab3
+   85  rm -r lab3
+   86  sudo rm -r lab3
+   87  ls -l
+   88  pwd
+   89  echo rqiueuo
+   90  echo 1356195789
+   91  echo ! 123
+   92  echo >test.txt
+   93  sudo echo > text.txt
+   94  ls -l
+   95  sudo echo 789 > text.txt
+   96  exit
+   97  pwd
+   98  ls -l
+   99  cd ..
+  100  ls -l
+  101  cd /nikolay/
+  102  ~
+  103  cd /home/nikolay/
+  104  cd /home/nikolay/test/
+  105  echo 123
+  106  echo 1234
+  107  echo 12345
+  108  echo 123456 > test1.txt
+  109  ls -l
+  110  cat test1.txt
+  111  rm test1.txt
+  112  ls -l
+  113  echo 33333 > file1
+  114  ls -l
+  115  cat file1
+  116  ls -il
+  117  ln file1 file2
+  118  ls -il
+  119  cat file2
+  120  echo 444 > file4
+  121  ls -l
+  122  ln -s file4 file5
+  123  cat file5
+  124  ls -il
+  125  mv file4 file6
+  126  ls -il
+  127  cat file5
+  128  ls -l
+  129  nano file6
+  130  cd /var/log/
+  131  ls -l
+  132  cat syslog
+  133  man head
+  134  head -n 10 syslog
+  135  tail _F syslog
+  136  tail -F syslog
+  137  man useradd
+  138  man sudo
+  139  cd /home/
+  140  ll
+  141  clear
+  142  exit
+  143  sudo pro status
+  144  apt list --upgradeable
+  145  sudo apt install ubuntu-advantage-tools
+  146  sudo ua enable-esm
+  147  sudo ua enable esm-infra
+  148  script output.txt
+  149  pwd
+  150  ls -l
+  151  cd output.txt
+  152  cat output.txt
+  153  less output.txt
+  154  touch filetest2
+  155  chmod u=rw,g= ,o= filetest2
+  156  chmod u=rw,g= ,o= , filetest2
+  157  chmod u=rw,g=rw,o=r filetest
+  158  cat output.txt
+  159  q
+  160  ll
+  161  less output.txt
+  162  cat output
+  163  cat output.txt
+  164  clear
+  165  less output.txt
+  166  cat output.txt
+  167  touch filetest
+  168  ls -l
+  169  ll
+  170  ls -l
+  171  nano output.txt
+  172  adduser nik1
+  173  sudo adduser1
+  174  sudo adduser nik1
+  175  ls -l
+  176  cd /home/
+  177  ls -l
+  178  sudo groupadd nikgroup
+  179  sudo usermod -aG nikgroup nik1
+  180  ls -l
+  181  cat /etc/group
+  182  sudo visudo
+  183  sudo chmod u=rw, g=rw, o=r nik1
+  184  chmod --help
+  185  sudo chmod u=rw,g=rw,o=r nik1
+  186  ls -l
+  187  cd nik1
+  188  sudo chmod u=rw,g=rw,o=rx nik1
+  189  cd nik1
+  190  cd ..
+  191  ls -l
+  192  sudo chmod 755 nik1
+  193  ls -l
+  194  sudo chown nikolay nik1
+  195  ls -l
+  196  cd nik1
+  197  nano script.sh
+  198  ls -l
+  199  nano script.sh
+  200  ls -l
+  201  sudo chmod +x script.sh
+  202  ls -l
+  203  sudo chmod u+s script.sh
+  204  ls -l
+  205  echo 1234 > text4.txt
+  206  ls -l
+  207  umask 222
+  208  ls -l
+  209  echo 123 > text5
+  210  ls -l
+  211  umask 111
+  212  echo 567 > text6.txt
+  213  ls -l
+  214  exit
+  215  ls -l
+  216  nano output.txt
+  217  script output.txt
+  218  cat output.txt
+  219  nano output.txt
+  220  exit
+  221  sudo apt update 
+  222  apt list --upgradable
+  223  sudo apt install mc
+  224  mc
+  225  sudo apt remove mc
+  226  sudo apt purge mc-data
+  227  sudo apt autoremove
+  228  nano sources.list
+  229  cd etc/apt
+  230  cd etc
+  231  nano sources.list
+  232  clear
+  233  cd sources.list
+  234  cd / sources.list
+  235  cd /sources.list
+  236  cd /etc
+  237  cd /apt/sources.list
+  238  cd apt
+  239  nano sources.list
+  240  sudo nano sources.list
+  241  sudo apt update
+  242  apt -secure --help
+  243  apt -secure
+  244  mano apt
+  245  man apt
+  246  exit
+  247  q
+  248  sudo dpkg -r mc
+  249  sudo dpkg -r mc-data
+  250  mc
+  251  apt purge mc
+  252  sudo apt purge mc
+  253  ex[t
+  254  dpkg -l
+  255  clear
+  256  dpkg -i mc
+  257  sudo dpkg -i mc
+  258  mc
+  259  sudo apt install mc
+  260  sudo dpkg -i mc
+  261  sudo apt install mc
+  262  sudo dpkg -i mc
+  263  mc
+  264  dpkg -l
+  265  sudo dpkg -i mc3:4.8.27-1
+  266  apt list mc
+  267  sudo dpkg -i mc 3:4.8.27-1
+  268  sudo dpkg -i mc
+  269  ~
+  270  cd ~
+  271  cd Загрузки
+  272  ls
+  273  sudo dpkg -i mc_4.8.29-2_amd64.deb 
+  274  sudo dpkg -i mcls
+  275  ls
+  276  sudo dpkg -i mc-data_4.8.29-2_all.deb
+  277  mc
+  278  exit
+  279  cd ~
+  280  apt apdata
+  281  apt updata
+  282  apt update
+  283  sudo apt update
+  284  sudo apt-get update
+  285  sudo apt-get install mysql-server
+  286  sudo apt-get install mysql-client
+  287  sudo mysql -u root
+  288  apt purge mysql-client mysql-server
+  289  sudo apt purge mysql-client mysql-server
+  290  exit
+  291  /etc/apt/sources.list
+  292  sudo/etc/apt/sources.list
+  293  sudo
+  294  /etc/apt/sources.list
+  295  exit
+  296  nano
+  297  exit
+  298  exit
+  299  echo 123 > test.bak
+  300  echo 123 > test.backup
+  301  echo 123 > test.tmp
+  302  ls -l
+  303  nano
+  304  chmod +x gbscript.sh
+  305  ./gbscript.sh
+  306  nano gbscript.sh 
+  307  ls -l
+  308  echo 123 > gbscript.sh
+  309  ls -l
+  310  nano gbscript.sh
+  311  gbscript.sh
+  312  nano gbscript.sh
+  313  nano
+  314  ls -l
+  315  rm gbscript.sh
+  316  ls -l
+  317  exit
+  318  nano gbscript.sh 
+  319  ls -l
+  320  rm test.bak test.backup test.tmp
+  321  ls-l
+  322  ls -l
+  323  rm filetest filetest2 output.txt
+  324  ls -l
+  325  echo 123 > gbscript.sh
+  326  echo 123 > test.bak
+  327  echo 123 > test.backup
+  328  echo 123 > test.tmp
+  329  ls -l
+  330  nano gbscript.sh 
+  331  pwd
+  332  ./gbscript.sh /home/nikolay
+  333  sudo ./gbscript.sh /home/nikolay
+  334  chmod +x gbscript.sh
+  335  ./gbscript.sh /home/nikolay
+  336  ./gbscript.sh /home/niko
+  337  ls -l
+  338  ./gbscript.sh /home/nikolay
+  339  ls -l
+  340  sudo apt update
+  341  [200~sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common~
+  342  sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+  343  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  344  sudo apt-get update
+  345  sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common
+  346  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  347  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+  348  sudo apt-get update
+  349  sudo apt-get install -y docker-ce
+  350  sudo systemctl status docker
+  351  sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+  352  sudo rm -rf /var/lib/containerd
+  353  exit
+  354  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+  355  # Add Docker's official GPG key:
+  356  sudo apt-get update
+  357  sudo apt-get install ca-certificates curl
+  358  sudo install -m 0755 -d /etc/apt/keyrings
+  359  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+  360  sudo chmod a+r /etc/apt/keyrings/docker.asc
+  361  # Add the repository to Apt sources:
+  362  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  363    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  364  sudo apt-get update
+  365  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  366  sudo docker run hello-world
+  367  docker run --help
+  368  docker --version
+  369  sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  370  sudo chmod +x /usr/local/bin/docker-compose
+  371  docker-compose --version
+  372  docker compose up
+  373  docker ps
+  374  echo 123 docker-compose.yml
+  375  docker-compose.yml
+  376  cd docker-compose.yml
+  377  cat docker-compose.yml
+  378  ls -l
+  379  docker --help
+  380  docker info
+  381  docker pull ubuntu
+  382  docker ps -a
+  383  docker run -it ubuntu bash
+  384  dockerrun -d ubuntu
+  385  docker run -d ubuntu
+  386  docker rmi $(docker images -a -q)
+  387  exit
+  388  docker run -it ubuntu:23.10 bash
+  389  docker ps
+  390  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+  391  sudo apt autoremove
+  392  apt-get
+  393  sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+  394  sudo rm -rf /var/lib/docker
+  395  sudo rm -rf /var/lib/containerd
+  396  # Add Docker's official GPG key:
+  397  sudo apt-get update
+  398  sudo apt-get install ca-certificates curl
+  399  sudo install -m 0755 -d /etc/apt/keyrings
+  400  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+  401  sudo chmod a+r /etc/apt/keyrings/docker.asc
+  402  # Add the repository to Apt sources:
+  403  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  404    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  405  sudo apt-get update
+  406  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  407  sudo docker run hello-world
+  408  ll /etc/apt/keyrings
+  409  cat /etc/apt/ sourses.list.d/docker.list
+  410  cat /etc/apt/sources.list.d/docker.list
+  411  sudo docker run hello-world
+  412  docker --version
+  413  docker info
+  414  sudo docker info
+  415  docker images
+  416  sudo docker images
+  417  docker run -it ubuntu bash
+  418  sudo docker run -it ubuntu bash
+  419  sudo docker run -it ubuntu date
+  420  sudo docker ps -a
+  421  sudo docker start cool_cori
+  422  sudo docker rmi $(docker images -a -q)
+  423  sudo docker rmi $(docker images -a -q) --force
+  424  service docker restart
+  425  sudo docker rmi $(docker images -a -q) --force
+  426  ls -l /var/docker.sock
+  427  sudo ls -l /var/docker.sock
+  428  sudo docker rmi $(docker images -a -q) --force
+  429  docker stop --help
+  430  exit
+  431  echo 'version: "3.9"
+  432  servises:
+  433  clear
+  434  exit
+  435  nano docker-compose.yml
+  436  docker-compose.yml
+  437  cd docker-compose.yml
+  438  nano docker-compose.yml
+  439  nano ./Dockerfile
+  440  nano docker-compose.yml
+  441  nano ./Dockerfile
+  442  nano docker-compose.yml
+  443  docker-compose up -d
+  444  sudo docker-compose up -d
+  445  docker-compose ps
+  446  sudo docker-compose ps
+  447  exit
+  448  ls
+  449  echo Собаки > Pets
+  450  nano Pets
+  451  echo Лошади, Верблюды, Ослы > Pack Animals
+  452  nano Pack Animals
+  453  ls -l
+  454  rm Pets Pack
+  455  ls -l
+  456  touch Pets.txt PackAnimals.txt
+  457  ls -l
+  458  nano Pack
+  459  ls -l
+  460  cat Pack
+  461  rm Pack
+  462  ls
+  463  nano test
+  464  nano test.txt
+  465  ls
+  466  rm test.txt
+  467  ls
+  468  nano test.txt test1.txt
+  469  rm test.txt test1.txt
+  470  rm Pats PackAnimals
+  471  rm Pats.txt PackAnimals.txt
+  472  rm Pets.txt
+  473  ls
+  474  nano Pets PackAnimals
+  475  cat Pets
+  476  rm Pets Packanimals
+  477  ls
+  478  rm PackAnimals
+  479  ls
+  480  cat > Pets
+  481  cat Pets
+  482  cat > Pets
+  483  ls
+  484  rm Pets
+  485  ls
+  486  clear
+  487  ls
+  488  cat > Pets
+  489  cat > PackAnimals
+  490  ls
+  491  ls -l
+  492  kill
+  493  mano kill
+  494  man kill
+  495  kill -l
+  496  cat Pets Packanimals > HumanFriends
+  497  cat Pets PackAnimals > HumanFriends
+  498  ls
+  499  cat HumanFriends
+  500  mv HumanFriends NewDirectory/
+  501  mkdir NewDirectoty
+  502  ls
+  503  rv HumanFriends NewDirectoty/
+  504  mv HumanFriends NewDirectoty/
+  505  ls
+  506  wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+  507  sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+  508  sudo apt update
+  509  sudo apt install mysql-server
+  510  mkdir FinalWorkProgramming
+  511  ls -l
+  512  cd FinalWorkProgramming/
+  513  git init
+  514  git configgit config --global user.name "Nilolay" 
+  515  git config --global user.email "vulkank@mail.ru"
+  516  git config  --global user.name "Nilolay" 
+  517  git config --global user.email "vulkank@mail.ru"
+  518  git branch -m main
+  519  git remote add origin https://github.com/Nikolay28042022/FinalWorkProgramming.git
+  520  ls -l
+  521  git status
+  522  ls
+  523  git add Git.png
+  524  git commit -m "Скрин создания отслеживаемой папки"
+  525  git push -u origen main
+  526  sudo git push -u origen main
+  527  git remote -v
+  528  sudo git push -u origen main
+  529  git push origin main
+  530  git pull
+  531  git pull https://github.com/Nikolay28042022/FinalWorkProgramming.git/ main
+  532  git pull --no-rebase https://github.com/Nikolay28042022/FinalWorkProgramming.git main
+  533  git pull --rebase https://github.com/Nikolay28042022/FinalWorkProgramming.git main
+  534  git status
+  535  ls -l
+  536  git push
+  537  git push -u origen main
+  538  sudo git push -u origen main
+  539  git push --set-upstream origin main
+  540  history > terminal_history.txt
+  541  cat info.txt
+  542  cat > info.txt
+  543  cat info.txt
+  544  nano info.txt
+  545  cat info.txt
+  546  cat info.txt terminal_hisnory.txt > full_history.text
+  547  ls -l
+  548  cat info.txt terminal_history.txt > full_history.text
+  549  cat full_history.txt
+  550  cat full_history.text
+  551  ls -l
+  552  git status
+  553  cd .
+  554  cd ..
+  555  clear
+  556  ls -l
+  557  rm PackAnimals Pets
+  558  ls -l
+  559  rmdir NewDirectoty/
+  560  cd NewDirectoty/
+  561  ls -l
+  562  rm HumanFriends 
+  563  rmdir NewDirectory/
+  564  cd ..
+  565  ls -l
+  566  rmdir NewDirectoty/
+  567  ls -l
+  568  clear
+  569  ls
+  570  cd FinalWorkProgramming/
+  571  ls
+  572  rm full-history.text info.txt terminal_history.txt
+  573  ls -l
+  574  rm full_history.text 
+  575  ls
+  576  git status
+  577  exit
+  578  close
+  579  exit
+  580  ls
+  581  cd FinalWorkProgramming/
+  582  ls
+  583  cat Pets.txt PackAnimals.txt
+  584  cat > Pets.txt PackAnimals.txt
+  585  cat > Pets.txt 
+  586  cat > PackAnimals.txt 
+  587  nano PackAnimals.txt 
+  588  cat PackAnimals.txt 
+  589  nano PackAnimals.txt 
+  590  cat PackAnimals.txt 
+  591  cat Pets.txt PackAnimals.txt > HumanFriends
+  592  ls -l
+  593  mv HumanFriends HumanFriends.txt
+  594  ls -l
+  595  cat HumanFriends.txt 
+  596  clear
+  597  # Создаем два файла с помощю команды cat.
+  598  ls -l
+  599  cd FinalWorkProgramming/
+  600  ls -l
+  601  rm HumanFriends.txt PackAnimals.txt Pets.txt 
+  602  Ls -l
+  603  ls -l
+  604  # Создаем два файла с помощю команды cat.
+  605  cat Pets.txt PackAnimals.txt
+  606  cat > Pets.txt PackAnimals.txt
+  607  cat > Pets.txt 
+  608  rm Pets.txt 
+  609  ls
+  610  # Создаем два файла с помощю команды cat.
+  611  cat > Pets.txt 
+  612  cat > PackAnimals.txt 
+  613  ls
+  614  # Обьединяем два файла в один.
+  615  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+  616  ls -l
+  617  cat HumanFriends.txt 
+  618  # Создаем  новую директорию и перемещает туда файл.
+  619  mkdir NewDir
+  620  ls -l
+  621  mv HumanFriends.txt NewDir/
+  622  ls -l
+  623  cd NewDir/
+  624  ls
+  625  # Установка MySQL
+  626  wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+  627  sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+  628  sudo apt update
+  629  sudo apt install mysql-server
+  630  ls -l
+  631  # Удаляем deb-пакет при помощи dpkg.
+  632  sudo dpkg -r mysql-apt-config_0.8.22-1_all.deb
+  633  sudo dpkg -r mysql-server
+  634  ls -l
+  635  sudo systemctl stop mysql
+  636  sudo apt-get remove --purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+  637  sudo apt-get autoremove
+  638  sudo apt-get autoclean
+  639  sudo rm -rf /etc/mysql /var/lib/mysql
+  640  sudo apt-get remove --purge mysql*
+  641  ls -l
+  642  rm mysql-apt-config_0.8.22-1_all.deb 
+  643  ls
+  644  ls -l
+  645  cd ..
+  646  ls
+  647  /
+  648  ~
+  649  cd..
+  650  cd ..
+  651  ls -l
+  652  exit
+  653  ls
+  654  cd FinalWorkProgramming/
+  655  ls
+  656  cd ..
+  657  rm mymysql-apt-config_0.8.22-1_all.deb
+  658  ls -l
+  659  rm mysql-apt-config_0.8.22-1_all.deb
+  660  ls -l
+  661  ls
+  662  cd FinalWorkProgramming/
+  663  ls
+  664  sudo dpkg -i mc_4.8.30-1build2_amd64.deb
+  665  sudo apt update
+  666  sudo apt install mc
+  667  sudo apt --fix-broken install
+  668  mc
+  669  sudo apt install mc
+  670  mc
+  671  # Удаление mc
+  672  sudo apt remove mc
+  673  sudo apt autoremove
+  674  clear
+  675  histori > terminal_history.txt
+  676  clear
+  677  history > terminal_history.txt
+ФИО: Мемжанов Николай
+Группа:12345
+Дата сдачи:  24.07.2024
